@@ -52,15 +52,25 @@
 	  margin-top: 5px;
 	}
 
-	nav {
-	  margin-top: 25px;
-	}
+  nav {
+    margin-top: 25px;
+    text-align: center;
+  }
 
-	nav a {
-	  margin-right: 20px;
-	  text-decoration: none;
-	  color: #333;
-	}
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #666;
+  }
+
+  nav a:hover {
+    color: #000;
+    font-weight: bold;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 
 	section {
 	  padding: 45px 0;
@@ -115,7 +125,7 @@
 	  max-width: 100%;
 	  height: auto;
 	  display: block;
-	  margin-bottom: 18px;
+    margin: 0 auto 18px;
 	}
 
 	.challenge-banner {
@@ -161,10 +171,12 @@
 
     <nav>
       <a href="#about">About</a>
-	  <a href="#platform-dataset">Platform Dataset</a>
+	    <a href="#platform-dataset">Platform Dataset</a>
       <a href="#challenge-data">Challenge Data</a>
       <a href="#challenges">Challenges</a>
       <a href="#citation">Citation</a>
+      <a href="#acknowledgments">Acknowledgments</a>
+      <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -222,28 +234,31 @@
   <section id="challenge-data">
 
     <h2>PAIP Challenge Data Access</h2>
-    <h3> The data will be available under the Creative Commons Attribution-Non Commercial 4.0 International License (CC BY-NC 4.0).</h3>
     <p>
-      PAIP challenge datasets are provided for research use after review and
-      approval of a Data Use Agreement (DUA).
+      The datasets are made available under the
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Creative Commons Attribution-NonCommercial 4.0 International License
+        (CC BY-NC 4.0)
+      </a>.
     </p>
-
     <p>
-      Once a completed DUA has been reviewed and approved by the PAIP team,
-      temporary access to the requested dataset will be provided through a
-      Google Drive link or another designated data-sharing service. Therefore, if you have submitted a DUA, please check your email regularly for access information.
+      <strong>
+      The available datasets vary by challenge.
+      Before submitting a DUA, please make sure to check the challenge name
+      and dataset description on the corresponding official challenge website.
+      </strong>
+      Links to the official challenge websites can be found in the <a href="#challenges">Challenges section</a> below.
     </p>
-
+    <p> PAIP challenge datasets are provided for research use after review and approval of a Data Use Agreement (DUA). </p>
+    <p>
+      Once a DUA has been approved by the PAIP team, temporary access to the requested dataset will be provided.
+      Therefore, if you have submitted a DUA, please check your email regularly for access information.
+    </p>
     <p>
       To request access, please complete the DUA available from the link below
       and send the completed document by email.
-    </p>
-
-    <p>
-      <strong>Email:</strong>
-      <a href="mailto:lab.kblee117@gmail.com">
-        lab.kblee117@gmail.com
-      </a>
     </p>
 
     <p>
@@ -253,9 +268,10 @@
     </p>
 
     <p>
-      The DUA must be completed in full and must include the applicant's proper information.
-      PAIP challenge datasets are provided for research use only and are
-      subject to the terms specified in the applicable DUA.
+      <strong>Email:</strong>
+      <a href="mailto:lab.kblee117@gmail.com">
+        lab.kblee117@gmail.com
+      </a>
     </p>
 
   </section>
@@ -552,8 +568,8 @@
   </section>
 
 
-  <!-- Acknowledgments -->
-  <section id="Acknowledgments">
+  <!-- acknowledgments -->
+  <section id="acknowledgments">
 
     <h2>Acknowledgments</h2>
 
