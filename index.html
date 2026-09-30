@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAIP | Pathology Artificial Intelligence Platform</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 50px 0 30px;
+      border-bottom: 1px solid #ddd;
+    }
+
+	body {
+	  margin: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+	  line-height: 1.6;
+	  color: #222;
+	  background: #fff;
+	}
+
+	.container {
+	  width: min(1100px, 90%);
+	  margin: 0 auto;
+	}
+
+	header {
+	  padding: 50px 0 30px;
+	  border-bottom: 1px solid #ddd;
+	}
+
+	header h1 {
+	  margin: 0;
+	  font-size: 42px;
+	}
+
+	.subtitle {
+	  font-size: 20px;
+	  margin-top: 5px;
+	}
+
+	nav {
+	  margin-top: 25px;
+	}
+
+	nav a {
+	  margin-right: 20px;
+	  text-decoration: none;
+	  color: #333;
+	}
+
+	section {
+	  padding: 45px 0;
+	  border-bottom: 1px solid #eee;
+	}
+
+	h2 {
+	  margin-top: 0;
+	}
+
+	.challenge-card {
+	  margin: 25px 0;
+	  padding: 20px;
+	  border: 1px solid #ddd;
+	  border-radius: 8px;
+	}
+
+	.citation {
+	  margin: 25px 0;
+	  padding: 20px;
+	  background: #f7f7f7;
+	  border-radius: 8px;
+	}
+
+	.notice {
+	  padding: 15px;
+	  background: #f5f5f5;
+	}
+
+	.button {
+	  display: inline-block;
+	  padding: 10px 18px;
+	  border: 1px solid #333;
+	  border-radius: 5px;
+	  text-decoration: none;
+	  color: #222;
+	}
+
+	.small {
+	  font-size: 14px;
+	}
+
+	footer {
+	  padding: 30px 0;
+	  text-align: center;
+	  font-size: 14px;
+	}  
+
+
+	.paip-logo {
+	  width: 360px;
+	  max-width: 100%;
+	  height: auto;
+	  display: block;
+	  margin-bottom: 18px;
+	}
+
+	.challenge-banner {
+	  width: 100%;
+	  height: auto;
+	  display: block;
+	  margin: -20px -20px 20px -20px;
+	  width: calc(100% + 40px);
+	  border-radius: 8px 8px 0 0;
+	}
+
+	details {
+	  margin-top: 15px;
+	}
+
+	summary {
+	  cursor: pointer;
+	  font-weight: 600;
+	}
+
+	summary:hover {
+	  text-decoration: underline;
+	}
+
+	.citation-authors {
+	  margin-top: 15px;
+	  line-height: 1.7;
+	}
+
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <div class="container">
+    <img
+      src="assets/images/logo.png"
+      alt="PAIP - Pathology AI Platform"
+      class="paip-logo"
+    >
+
+    <nav>
+      <a href="#about">About</a>
+	  <a href="#platform-dataset">Platform Dataset</a>
+      <a href="#challenge-data">Challenge Data</a>
+      <a href="#challenges">Challenges</a>
+      <a href="#citation">Citation</a>
+    </nav>
+  </div>
+</header>
+
+
+<main class="container">
+
+  <!-- About -->
+  <section id="about">
+    <h2>About PAIP</h2>
+
+    <p>
+      The Pathology Artificial Intelligence Platform (PAIP) is a research
+      platform established to support the development and evaluation of
+      artificial intelligence methods in digital pathology.
+    </p>
+  </section>
+
+
+  <!-- platform-dataset-->
+  <section id="platform-dataset">
+    <h2>PAIP Platform Dataset</h2>
+
+    <p>
+      The PAIP platform dataset will be made available through external links via the Korea Health Data Platform (KHDP) of Seoul National University Hospital.
+    </p>
+
+    <p>
+      The dataset is currently being prepared for transfer to the platform.
+      Additional information and access instructions will be updated once the
+      dataset becomes available.
+    </p>
+
+    <p>
+      The dataset contains approximately 3,200 whole-slide images (WSIs)
+      with pathologist annotations across five cancer types:
+    </p>
+
+    <ul>
+      <li>Liver</li>
+      <li>Colon</li>
+      <li>Prostate</li>
+      <li>Pancreas and biliary tract</li>
+      <li>Kidney</li>
+    </ul>
+
+    <p class="notice">
+      The information will be updated when the dataset becomes available.
+    </p>
+
+  </section>
+
+
+  <!-- Challenge Data -->
+  <section id="challenge-data">
+
+    <h2>PAIP Challenge Data Access</h2>
+    <h3> The data will be available under the Creative Commons Attribution-Non Commercial 4.0 International License (CC BY-NC 4.0).</h3>
+    <p>
+      PAIP challenge datasets are provided for research use after review and
+      approval of a Data Use Agreement (DUA).
+    </p>
+
+    <p>
+      Once a completed DUA has been reviewed and approved by the PAIP team,
+      temporary access to the requested dataset will be provided through a
+      Google Drive link or another designated data-sharing service. Therefore, if you have submitted a DUA, please check your email regularly for access information.
+    </p>
+
+    <p>
+      To request access, please complete the DUA available from the link below
+      and send the completed document by email.
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:lab.kblee117@gmail.com">
+        lab.kblee117@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <a class="button" href="assets/files/PAIP_DUA.pdf">
+        Download Data Use Agreement
+      </a>
+    </p>
+
+    <p>
+      The DUA must be completed in full and must include the applicant's proper information.
+      PAIP challenge datasets are provided for research use only and are
+      subject to the terms specified in the applicable DUA.
+    </p>
+
+  </section>
+
+
+  <!-- Challenges -->
+  <section id="challenges">
+    <h2>PAIP Challenges</h2>
+
+
+    <article class="challenge-card">
+
+      <img
+        src="assets/images/paip2019.png"
+        alt="PAIP 2019 Liver Cancer Segmentation Challenge"
+        class="challenge-banner"
+      >
+
+      <h3>PAIP 2019</h3>
+
+      <p>
+        <strong>Liver Cancer Segmentation Challenge</strong>
+      </p>
+
+      <p>
+        Tasks included liver cancer segmentation and viable tumor burden
+        estimation in whole-slide pathology images.
+      </p>
+      <p>
+        <a
+          href="https://paip2019.grand-challenge.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Official PAIP 2019 Challenge Website
+        </a>
+      </p>
+
+
+    </article>
+
+
+    <article class="challenge-card">
+
+      <img
+        src="assets/images/paip2020.png"
+        alt="PAIP 2020 MSI Prediction in Colorectal Cancer"
+        class="challenge-banner"
+      >
+
+      <h3>PAIP 2020</h3>
+
+      <p>
+        <strong>
+          Microsatellite Instability Prediction in Colorectal Cancer
+        </strong>
+      </p>
+
+      <p>
+        The challenge focused on predicting microsatellite instability (MSI)
+        status from colorectal cancer whole-slide images.
+      </p>
+      <p>
+        <a
+          href="https://paip2020.grand-challenge.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Official PAIP 2020 Challenge Website
+        </a>
+      </p>
+    </article>
+
+
+    <article class="challenge-card">
+
+      <img
+        src="assets/images/paip2021.png"
+        alt="PAIP 2021 Perineural Invasion in Multiple Organ Cancer"
+        class="challenge-banner"
+      >
+
+      <h3>PAIP 2021</h3>
+	  
+      <p>
+        <strong>
+          Perineural Invasion in Multiple Organ Cancer (Colon, Prostate and Pancreatobiliary tract)
+        </strong>
+      </p>
+
+      <p>
+        The challenge focused on detecting perineural invasion in colon,
+        prostate, and pancreatobiliary cancers.
+      </p>
+
+      <p>
+        <a
+          href="https://paip2021.grand-challenge.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Official PAIP 2021 Challenge Website
+        </a>
+      </p>
+
+    </article>
+
+
+    <article class="challenge-card">
+
+      <img
+        src="assets/images/paip2023.png"
+        alt="PAIP 2023 Tumor Cellularity Prediction Challenge"
+        class="challenge-banner"
+      >
+
+      <h3>PAIP 2023</h3>
+
+      <p>
+        <strong>
+		Tumor cellularity prediction in pancreatic cancer (supervised learning) and colon cancer (transfer learning)		
+        </strong>
+      </p>
+
+      <p>
+        The challenge addressed tumor cellularity prediction in pancreatic
+        cancer using supervised learning and in colorectal cancer using
+        transfer learning.
+      </p>
+
+      <p>
+        <a
+          href="https://2023paip.grand-challenge.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Official PAIP 2023 Challenge Website
+        </a>
+      </p>
+
+    </article>
+
+  </section>
+
+
+  <!-- Citations -->
+  <section id="citation">
+
+    <h2>How to Cite PAIP Datasets</h2>
+
+    <p>
+      If you use a PAIP challenge dataset in a publication, please cite the
+      corresponding challenge publication or official challenge website as
+      indicated below.
+    </p>
+
+
+    <div class="citation">
+
+      <h3>PAIP 2019</h3>
+
+      <p>
+        Kim YJ, Jang H, Lee K, et al.
+        PAIP 2019: Liver cancer segmentation challenge.
+        <em>Medical Image Analysis</em>.
+        2021;67:101854.
+      </p>
+
+      <p>
+        DOI:
+        <a
+          href="https://doi.org/10.1016/j.media.2020.101854"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          10.1016/j.media.2020.101854
+        </a>
+      </p>
+
+      <details>
+        <summary>Show full citation and author list</summary>
+        <p class="citation-authors">
+          Yoo Jung Kim, Hyungjoon Jang, Kyoungbun Lee, Seongkeun Park,
+          Sung-Gyu Min, Choyeon Hong, Jeong Hwan Park, Kanggeun Lee,
+          Jisoo Kim, Wonjae Hong, Hyun Jung, Yanling Liu, Haran Rajkumar,
+          Mahendra Khened, Ganapathy Krishnamurthi, Sen Yang, Xiyue Wang,
+          Chang Hee Han, Jin Tae Kwak, Jianqiang Ma, Zhe Tang,
+          Bahram Marami, Jack Zeineh, Zixu Zhao, Pheng Ann Heng,
+          Rüdiger Schmitz, Frederic Madesta, Thomas Rösch, Rene Werner,
+          Jie Tian, Elodie Puybareau, Matteo Bovio, Xiufeng Zhang,
+          Yifeng Zhu, Se Young Chun, Won-Ki Jeong, Peom Park,
+          Jinwook Choi.
+          PAIP 2019: Liver cancer segmentation challenge.
+          <em>Medical Image Analysis</em>. 2021;67:101854.
+        </p>
+      </details>
+
+    </div>
+
+
+    <div class="citation">
+
+      <h3>PAIP 2020</h3>
+
+      <p>
+        Kim K, Lee K, Cho S, et al.
+        PAIP 2020: Microsatellite instability prediction in colorectal cancer.
+        <em>Medical Image Analysis</em>.
+        2023;89:102886.
+      </p>
+
+      <p>
+        DOI:
+        <a
+          href="https://doi.org/10.1016/j.media.2023.102886"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          10.1016/j.media.2023.102886
+        </a>
+      </p>
+
+      <details>
+        <summary>Show full citation and author list</summary>
+        <p class="citation-authors">
+          Kyungmo Kim, Kyoungbun Lee, Sungduk Cho, Dong Un Kang,
+          Seongkeun Park, Yunsook Kang, Hyunjeong Kim, Gheeyoung Choe,
+          Kyung Chul Moon, Kyu Sang Lee, Jeong Hwan Park, Choyeon Hong,
+          Ramin Nateghi, Fattaneh Pourakpour, Xiyue Wang, Sen Yang,
+          Seyed Alireza Fatemi Jahromi, Aliasghar Khani, Hwa-Rang Kim,
+          Doo-Hyun Choi, Chang Hee Han, Jin Tae Kwak, Fan Zhang,
+          Bing Han, David Joon Ho, Gyeong Hoon Kang, Se Young Chun,
+          Won-Ki Jeong, Peom Park, Jinwook Choi.
+          PAIP 2020: Microsatellite instability prediction in colorectal cancer.
+          <em>Medical Image Analysis</em>. 2023;89:102886.
+        </p>
+      </details>
+
+    </div>
+
+
+    <div class="citation">
+
+      <h3>PAIP 2021</h3>
+
+      <p>
+        Please cite the official PAIP 2021 challenge website until the journal publication becomes available.
+      </p>
+
+      <p>
+        <a
+          href="https://paip2021.grand-challenge.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          PAIP 2021 Challenge: Perineural Invasion in Multiple-Organ Cancer
+        </a>
+      </p>
+
+      <p class="small">
+        The journal publication associated with PAIP 2021 will be added here
+        once available.
+      </p>
+
+    </div>
+
+
+    <div class="citation">
+
+      <h3>PAIP 2023</h3>
+
+      <p>
+        Please cite the official PAIP 2023 challenge website until the journal publication becomes available.
+      </p>
+
+      <p>
+        <a
+          href="https://2023paip.grand-challenge.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          PAIP 2023: Tumor Cellularity Prediction in Pancreatic and
+          Colorectal Cancer
+        </a>
+      </p>
+
+      <p class="small">
+        The journal publication associated with PAIP 2023 will be added here
+        once available.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- Acknowledgments -->
+  <section id="Acknowledgments">
+
+    <h2>Acknowledgments</h2>
+
+    <p>
+      This research was supported by a grant of the Korea Health Technology R&D Project through the Korea Health Industry Development Institute (KHIDI), funded by the Ministry of Health & Welfare, Republic of Korea (grant number : HI18C0316).
+      Ethics approval: Approved by Seoul National University Hospital Institutional Review Board (IRB) (IRB No.H-1808-035-964).
+    </p>
+
+    <p>
+      Detailed ethics approval and consent information should be referred to
+      in the corresponding dataset documentation or publication.
+    </p>
+
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>
+      For questions regarding PAIP datasets or data access:
+    </p>
+
+    <p>
+      <a href="mailto:lab.kblee117@gmail.com">
+        lab.kblee117@gmail.com
+      </a>
+    </p>
+
+  </section>
+
+</main>
+
+
+<footer>
+  <div class="container">
+    <p>
+      Pathology Artificial Intelligence Platform (PAIP)
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
